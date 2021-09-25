@@ -1,0 +1,43 @@
+
+body {
+ background-color:#d7d9dd;
+}
+
+#main {
+	margin:auto;
+	margin-top:1em;
+	max-width:50rem;
+	border:1px solid #fffffa;
+	padding:1rem;
+	box-sizing:border-box;
+	background-color:#f4f4f2;
+
+	box-shadow: 0px 33px 27px -15px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 33px 27px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 33px 27px -15px rgba(0,0,0,0.75);
+}
+
+img, figure, figcaption {
+	width:100%;
+	height:auto;
+	max-width:20em;
+	margin:auto;
+	display:block;
+	box-sizing:border-box;
+
+}
+figcaption {
+	padding:1rem
+
+}
+li {
+	margin-top:0.5em;
+}
+
+#title {
+	font-size:1.5em;	
+	font-weight:600;
+	padding:5px;
+}
+
+
