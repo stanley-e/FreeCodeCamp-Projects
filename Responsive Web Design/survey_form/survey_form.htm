@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Programming Language Title</title>
+  <meta name="description" content="Stanley John Elliott">
+  <meta name="author" content="Stanley John Elliott">
+  <link rel="stylesheet" href="survey_style.css">
+<style>
+</style>
+</head>
+<body>
+	<div id="main">
+	<h1 id="title"> Programming Survey </h1>
+	<p id="description">A FreeCode Camp project</p>
+	<form id="survey-form">
+		<div class="form-row">
+			<label id="name-label" for="name">Name:</label>
+			<input id="name" name="name" type="text" placeholder="Your name here" required>
+		</div>
+		<div class="form-row">
+			<label id="email-label" for="email">Email:</label>
+			<input id="email" name="email" type="email" placeholder="Your email address" required>
+		</div>
+		<div class="form-row">
+			<label id="number-label" for="number">Age</label>
+			<input type="number" id="number" min="13" max="130" placeholder="Your age. Minimum is 13">
+		</div>
+		<div>
+			<label for="language">Your preferred language is </label>
+		<select name="language" id="dropdown">
+			<option>[UNSPECIFIED]</option>
+			<option>[UNPOPULAR]</option>
+			<option>C</option>
+			<option>C#</option>
+			<option>C++</option>
+			<option>Classic Visual Basic</option>
+			<option>Delphi</option>
+			<option>Fortran</option>
+			<option>Go</option>
+			<option>Groovy</option>
+			<option>Java</option>
+			<option>JavaScript</option>
+			<option>MATLAB</option>
+			<option>Perl</option>
+			<option>Python</option>
+			<option>Ruby</option>
+			<option>SQL</option>
+			<option>Visual Basic</option>
+		</select>
+		</div>
+		<div class="radio-section">
+		Your preferred code editor is 
+		<div>
+			<div>
+				<input type="radio" id="Atom" name="editor" value="Atom">
+				<label for="Atom">Atom</label>
+			</div>
+			<div>
+				<input type="radio" id="Bluefish" name="editor" value="Bluefish">
+				<label for="Bluefish">Bluefish</label>
+			</div>
+			<div>
+				<input type="radio" id="Brackets" name="editor" value="Brackets">
+				<label for="Brackets">Brackets</label>
+			</div>
+			<div>
+				<input type="radio" id="Espresso" name="editor" value="Espresso">
+				<label for="Espresso">Espresso</label>
+			</div>
+			<div>
+				<input type="radio" id="Geany" name="editor" value="Geany">
+				<label for="Geany">Geany</label>
+			</div>
+			<div>
+				<input type="radio" id="Neovim" name="editor" value="Neovim">
+				<label for="Neovim">Neovim</label>
+			</div>
+			<div>
+				<input type="radio" id="Notepad" name="editor" value="Notepad">
+				<label for="Notepad">Notepad</label>
+			</div>
+			<div>
+				<input type="radio" id="Spacemacs" name="editor" value="Spacemacs">
+				<label for="Spacemacs">Spacemacs</label>
+			</div>
+			<div>
+				<input type="radio" id="Sublime Text" name="editor" value="Sublime Text">
+				<label for="Sublime Text">Sublime Text</label>
+			</div>
+			<div>
+				<input type="radio" id="TextMate" name="editor" value="TextMate">
+				<label for="TextMate">TextMate</label>
+			</div>
+			<div>
+				<input type="radio" id="VSCode" name="editor" value= "VS Code">
+				<label for="VSCode">VS Code</label>
+			</div>
+			<div>
+				<input type="radio" id="Vim" name="editor" value="Vim">
+				<label for="Vim">Vim</label>
+			</div>
+			<div>
+				<input type="radio" id="NotListed" name="editor" value="Vim">
+				<label for="NotListed">[Not Listed]</label>
+			</div>
+		</div>
+	</div>
+
+	<div class="checkbox-section">
+		What tools and procedures do you use? Tick all that apply.
+		<div>
+			<input type="checkbox" id="ContinousDelivery" name="ContinousDelivery" value="ContinousDelivery">
+			<label for="ContinousDelivery">Continous Delivery</label>
+		</div>
+		<div>
+			<input type="checkbox" id="DistributedVersionControl" name="DistributedVersionControl" value="DistributedVersionControl">
+			<label for="Distributed Version Control">Distributed Version Control</label>
+		</div>
+		<div>
+			<input type="checkbox" id="EntityRelationshipDiagrams" name="EntityRelationshipDiagrams" value="EntityRelationshipDiagrams">
+			<label for="EntityRelationshipDiagrams">Entity Relationship Diagrams</label>
+		</div>
+		<div>
+			<input type="checkbox" id="PairProgramming" name="PairProgramming" value="PairProgramming">
+			<label for="PairProgramming">Pair Programming</label>
+		</div>
+		<div>
+			<input type="checkbox" id="RubberDuckDebugging" name="RubberDuckDebugging" value="RubberDuckDebugging">
+			<label for="Rubber Duck Debugging">Rubber Duck Debugging</label>
+		</div>
+		<div>
+			<input type="checkbox" id="SCRUM" name="SCRUM" value="SCRUM">
+			<label for="SCRUM">SCRUM</label>
+		</div>
+		<div>
+			<input type="checkbox" id="TestDrivenDevelopment" name="TestDrivenDevelopment" value="TestDrivenDevelopment">
+			<label for="TestDrivenDevelopment">Test Driven Development</label>
+		</div>
+		<div>
+			<input type="checkbox" id="Userstories" name="UserStories" value="UserStories">
+			<label for="UserStories">User Stories</label>
+		</div>
+	</div>
+
+	<div>
+		<div>
+		<label for="comment" id="comment-label"> Any additional comments on the survey</label>
+		</div>
+		<textarea name="comment">  </textarea>
+	</div>
+	<button id="submit" type="submit">Submit</button>
+
+
+
+
+	</form>
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	</div>
+</body>
+</html>

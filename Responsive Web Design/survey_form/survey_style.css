@@ -1,0 +1,59 @@
+
+
+body {
+	display:flex;
+	background-color:#d7d9dd;
+}
+#main {
+	margin:auto;
+	margin-top:5rem;
+	border:1px solid black;
+	padding:1rem 2rem;
+	max-width:30em;
+}
+.form-row {
+	padding:0.5rem 0em;
+}
+
+.form-row label {
+	display:block;
+}
+@media (min-width: 40em) {
+	.form-row label {
+		width:5em;
+		display:inline-block;
+	}
+}
+
+
+.radio-section > div > div, .checkbox-section > div {
+	margin:0.4em 0em;
+
+}
+
+#survey-form > div {
+	padding:0.4em;
+}
+
+button[type=submit] {
+	margin:1em;
+	padding:0.3em;
+}
+
+#main {
+	margin:auto;
+	margin-top:1em;
+	max-width:50rem;
+	border:1px solid #fffffa;
+	padding:1rem;
+	box-sizing:border-box;
+	background-color:#f9f9f8;
+
+	box-shadow: 0px 33px 27px -15px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 33px 27px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 33px 27px -15px rgba(0,0,0,0.75);
+}
+
+
+
+
